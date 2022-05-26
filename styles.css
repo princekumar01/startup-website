@@ -1,0 +1,117 @@
+
+h1, h2, h3
+{
+font-family: 'Montserrat-bold';    
+line-height: 1;
+}
+
+
+.icon:hover{
+color:#ff4c68;    
+}
+
+.icon{
+color:#ef8172;    
+margin-bottom: 3%;
+padding:2% 2% 2%;
+}
+
+
+p{
+color:grey;    
+}
+.container{
+padding: 2% 7% 15%;    
+}
+
+#title
+{
+ background-color: #ff4c68;
+ color:#fff;  
+ font-weight: bold;
+ text-align: center;
+ font-size: 125%; 
+}
+
+.nav-item{
+padding:3% 6% 3%     
+}
+
+.download{
+margin: 3% 3% 5% 0%;    
+}
+
+.title-img{
+width:22%;
+transform:rotate(25deg);    
+top:34%;
+right:22%;
+position:absolute;
+}
+
+.testimonial-image{
+width: 8%;
+height:1%;
+border-radius: 100%;
+margin:2.825%;
+}
+
+#testimonials{
+text-align:center;
+background-color:#ef8172;  
+color:#000;
+font-family:'Montserrat-bold';  
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+background-color:#ef8172;
+text-align: center;
+padding:3% 3% 3%;
+}
+
+#pricing{
+margin:8%; 
+position:relative;   
+}
+
+.card{
+margin-left: 5%;
+margin-right: 3%;    
+}
+
+#features
+{
+ position:relative;
+ z-index:1;
+padding:7% 15%;
+}
+
+@media (max-width: 770px){
+.title-img{
+position:static;
+transform:rotate(0deg);
+}    
+#title{
+text-align:center;    
+}
+} 
+
+#cta{
+background-color: #ff4c68;
+text-align: center;
+color:#fff; 
+font-family: 'Montserrat-bold';
+padding:3% 0% 1%;   
+}
+
+#footer
+{
+ height:25%;
+ width:100%;   
+ font-family: 'Montserrat-bold';
+ padding:5% 5% 20%;
+ text-align: center;   
+}
